@@ -125,7 +125,7 @@ while ($choix != 7) {
     if ($choix == 6) {
         echo "Quel article souhaitez-vous supprimer ? : \n";
 
-        // Affichage des articles disponibles pour suppression
+        // Affichage des articles disponibles
         for ($i = 0; $i < count($articles); $i++) {
             echo "$i: $articles[$i] - Quantité : $quantites[$i]\n";
         }
@@ -135,12 +135,12 @@ while ($choix != 7) {
         echo "Article supprimé avec succès  : $articles[$index]\n";
 
         if ($index >= 0 && $index < count($articles)) {
-            // Suppression de l'article sélectionner 
+            // Suppression de l'article  
             array_splice($articles, $index, 1);
             array_splice($quantites, $index, 1);
             array_splice($ventes, $index, 1);
         } else {
-            echo "Index invalide. Aucune suppression effectuée ! \n";
+            echo "Index invalide. Aucune suppression effectuée  \n";
         }
     }
 }
