@@ -2,7 +2,7 @@
 
 // Initialisation du stock
 
-$articles = [" Chaussettes", " T-shirts", " Chaussures", " short", " Robes"];
+$articles = [" Chaussettes", " T-shirts", " Chaussures", " short", "sandale "];
 $quantites = [24, 15, 7, 4, 2];
 $ventes = [0, 0, 0, 0, 0];
 
