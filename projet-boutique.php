@@ -14,7 +14,7 @@ while ($choix != 7) {
 
     // Afficher le menu
 
-    echo "\nMenu 🛒 :\n";
+    echo "\nMenu  :\n";
     echo "1.  Afficher les articles disponibles et leurs quantités\n";
     echo "2.  Réaliser une vente\n";
     echo "3.  Réapprovisionner un article\n";
@@ -96,7 +96,7 @@ while ($choix != 7) {
     
 
     if ($choix == 4) {
-        echo "\n📊 État actuel du stock :\n";
+        echo "\n État actuel du stock :\n";
 
         for ($i = 0; $i < count($articles); $i++) {
             // Affichage de chaque article avec sa quantité
@@ -113,7 +113,7 @@ while ($choix != 7) {
 
     
     if ($choix == 5) {
-        echo "\n📈 Suivi des ventes totales par article :\n";
+        echo "\n Suivi des ventes totales par article :\n";
 
         for ($i = 0; $i < count($articles); $i++) {
             // Affichage de chaque article avec la quantité vendue
