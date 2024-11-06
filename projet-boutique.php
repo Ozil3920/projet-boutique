@@ -104,7 +104,7 @@ while ($choix != 7) {
 
             // Vérification de la rupture de stock
             if ($quantites[$i] == 0) {
-                echo "🚫 $articles[$i] est en rupture de stock !\n";
+                echo " $articles[$i] est en rupture de stock !\n";
                 $tousEnStock = false; // On trouve un article en rupture de stock
             }
         }
