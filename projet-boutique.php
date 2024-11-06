@@ -79,7 +79,7 @@ while ($choix != 7) {
     if ($choix == 3) {
         echo "Quel article souhaitez-vous réapprovisionner ? : \n";
 
-        // Affichage des articles disponibles pour réapprovisionnement 
+        // Afficher articles disponibles pour réapprovisionnement 
 
         for ($i = 0; $i < count($articles); $i++) {
             echo "$i: $articles[$i] - Quantité : $quantites[$i]\n";
@@ -99,7 +99,7 @@ while ($choix != 7) {
         echo "\n État actuel du stock :\n";
 
         for ($i = 0; $i < count($articles); $i++) {
-            // Affichage de chaque article avec sa quantité
+            // Affichage de chaque article et sa quantité
             echo "$articles[$i] - Quantité restante : $quantites[$i] \n";
 
             // Vérification de la rupture de stock
