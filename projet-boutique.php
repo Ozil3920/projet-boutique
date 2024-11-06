@@ -2,7 +2,7 @@
 
 // Initialisation du stock
 
-$articles = ["🧦 Chaussettes", "👕 T-shirts", "👟 Chaussures", "🧢 Casquettes", "👗 Robes"];
+$articles = [" Chaussettes", " T-shirts", " Chaussures", " Casquettes", " Robes"];
 $quantites = [10, 5, 8, 3, 12];
 $ventes = [0, 0, 0, 0, 0];
 
@@ -15,13 +15,13 @@ while ($choix != 7) {
     // Afficher le menu
 
     echo "\nMenu 🛒 :\n";
-    echo "1. 📋 Afficher les articles disponibles et leurs quantités\n";
-    echo "2. 🛍️ Réaliser une vente\n";
-    echo "3. ➕ Réapprovisionner un article\n";
-    echo "4. 📊 Afficher l'état actuel du stock\n";
-    echo "5. 📈 Suivre les ventes totales par article\n";
-    echo "6. ❌ Supprimer un article\n";
-    echo "7. 🚪 Quitter\n";
+    echo "1.  Afficher les articles disponibles et leurs quantités\n";
+    echo "2.  Réaliser une vente\n";
+    echo "3.  Réapprovisionner un article\n";
+    echo "4.  Afficher l'état actuel du stock\n";
+    echo "5.  Suivre les ventes totales par article\n";
+    echo "6.  Supprimer un article\n";
+    echo "7.  Quitter\n";
 
     // Initialisation du choix par l'user 
 
@@ -65,9 +65,9 @@ while ($choix != 7) {
             if ($quantites[$index] >= $quantiteVendue) {
                 $quantites[$index] -= $quantiteVendue; // Enlève la quantité vendue
                 $ventes[$index] += $quantiteVendue; // Ajoute les nouvelles ventes 
-                echo "Vente confirmée ✅ : $quantiteVendue $articles[$index]\n";
+                echo "Vente confirmée  : $quantiteVendue $articles[$index]\n";
             } else {
-                echo "Stock insuffisant ❌ pour $articles[$index].\n";
+                echo "Stock insuffisant  pour $articles[$index].\n";
             }
         } else {
             echo "Index invalide.\n";
@@ -90,7 +90,7 @@ while ($choix != 7) {
 
         $quantiteReapro = intval(readline("Quantité à réapprovisionner : "));
         $quantites[$index] += $quantiteReapro; // Rajoute la quantité réapprovisionnée 
-        echo "Réapprovisionnement confirmé ✅ : $quantiteReapro $articles[$index]\n";
+        echo "Réapprovisionnement confirmé  : $quantiteReapro $articles[$index]\n";
     }
 
     // Si le choix est le numéro 4, on affiche l'état actuel du stock
@@ -132,7 +132,7 @@ while ($choix != 7) {
 
         // Choix de l'article à supprimer
         $index = intval(readline("Choisissez l'index de l'article à supprimer : "));
-        echo "Article supprimé avec succès ✅ : $articles[$index]\n";
+        echo "Article supprimé avec succès  : $articles[$index]\n";
 
         if ($index >= 0 && $index < count($articles)) {
             // Suppression de l'article sélectionner 
