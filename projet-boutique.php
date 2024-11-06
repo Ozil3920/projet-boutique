@@ -144,6 +144,4 @@ while ($choix != 7) {
         }
     }
 }
-
-
 echo "Merci de votre visite\n";
