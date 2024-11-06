@@ -117,7 +117,7 @@ while ($choix != 7) {
 
         for ($i = 0; $i < count($articles); $i++) {
             // Affichage de chaque article avec la quantité vendue
-            echo "$articles[$i] - Quantité vendue : $ventes[$i] 🛒\n";
+            echo "$articles[$i] - Quantité vendue : $ventes[$i] \n";
         }
     }
 
