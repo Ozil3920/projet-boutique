@@ -35,7 +35,7 @@ while ($choix != 7) {
     }
 
 
-    // Si le choix est le choix est le numéro 1 alors on affiche les articles disponibles dans la boutique 
+     
 
     if ($choix == 1) {
         echo "\nArticles disponibles avec leurs quantités :\n";
@@ -47,7 +47,7 @@ while ($choix != 7) {
     }
 
 
-    // Si le choix est le choix est le numéro 2 alors on réalise une vente dans la boutique 
+     
 
     if ($choix == 2) {
 
@@ -74,7 +74,7 @@ while ($choix != 7) {
         }
     }
 
-    // Si le choix est le numéro 3, on réapprovisionne un article
+    
 
     if ($choix == 3) {
         echo "Quel article souhaitez-vous réapprovisionner ? : \n";
@@ -93,7 +93,7 @@ while ($choix != 7) {
         echo "Réapprovisionnement confirmé  : $quantiteReapro $articles[$index]\n";
     }
 
-    // Si le choix est le numéro 4, on affiche l'état actuel du stock
+    
 
     if ($choix == 4) {
         echo "\n📊 État actuel du stock :\n";
@@ -111,7 +111,7 @@ while ($choix != 7) {
     }
 
 
-    // Si le choix est le numéro 5, on affiche les ventes totales par article
+    
     if ($choix == 5) {
         echo "\n📈 Suivi des ventes totales par article :\n";
 
@@ -121,7 +121,7 @@ while ($choix != 7) {
         }
     }
 
-    // Si le choix est le numéro 6, on supprime un article
+    
     if ($choix == 6) {
         echo "Quel article souhaitez-vous supprimer ? : \n";
 
