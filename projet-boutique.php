@@ -23,7 +23,7 @@ while ($choix != 7) {
     echo "6.  Supprimer un article\n";
     echo "7.  Quitter\n";
 
-    // Initialisation du choix par l'user 
+    // Initialisation du choix par l'utilisateur 
 
     $choix = intval(readline("Choisissez une option : "));
 
