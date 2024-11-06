@@ -36,7 +36,6 @@ while ($choix != 7) {
 
 
      
-
     if ($choix == 1) {
         echo "\nArticles disponibles avec leurs quantités :\n";
         for ($i = 0; $i < count($articles); $i++) {
@@ -47,8 +46,7 @@ while ($choix != 7) {
     }
 
 
-     
-
+    
     if ($choix == 2) {
 
         // Affichage du stock et de la quantité
@@ -75,7 +73,6 @@ while ($choix != 7) {
     }
 
     
-
     if ($choix == 3) {
         echo "Quel article souhaitez-vous réapprovisionner ? : \n";
 
@@ -94,7 +91,6 @@ while ($choix != 7) {
     }
 
     
-
     if ($choix == 4) {
         echo "\n État actuel du stock :\n";
 
@@ -111,7 +107,6 @@ while ($choix != 7) {
     }
 
 
-    
     if ($choix == 5) {
         echo "\n Suivi des ventes totales par article :\n";
 
@@ -121,7 +116,6 @@ while ($choix != 7) {
         }
     }
 
-    
     if ($choix == 6) {
         echo "Quel article souhaitez-vous supprimer ? : \n";
 
